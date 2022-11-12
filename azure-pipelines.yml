@@ -47,3 +47,12 @@ steps:
     pathtoPublish: '$(build.artifactStagingDirectory)/output/$(sdk)/$(configuration)' 
     artifactName: 'drop' 
     publishLocation: 'Container'
+    
+- task: AppCenterDistribute@3
+  inputs:
+      serverEndpoint: 'App Center connection'
+      appSlug: 'cscyhenry1-gmail.com/HelloChanel'
+      appFile: '''$(build.artifactStagingDirectory)/output/$(sdk)/$(configuration)'''
+      releaseNotesOption: 'file'
+      releaseNotesFile: 'CHANGELOG'
+      destinationType: 'groups'
