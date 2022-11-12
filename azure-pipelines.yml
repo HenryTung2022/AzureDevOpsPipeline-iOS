@@ -18,11 +18,13 @@ steps:
     configuration: 'Release'
     xcWorkspacePath: '**/*.xcodeproj/project.xcworkspace'
     xcodeVersion: 'default' # Options: 8, 9, 10, 11, 12, default, specifyPath
-- task: AppCenterDistribute@3
+- task: CopyFiles@2
   inputs:
-    serverEndpoint: 'App Center connection'
-    appSlug: 'cscyhenry1-gmail.com/HelloChanel'
-    appFile: '$(APP_FILE)'
-    releaseNotesOption: 'file'
-    releaseNotesFile: 'CHANGELOG'
-    destinationType: 'groups'
+    contents: '**/*.ipa'
+    targetFolder: '$(build.artifactStagingDirectory)'
+    overWrite: true
+- task: PublishBuildArtifacts@1
+  inputs:
+    pathtoPublish: '$(build.artifactStagingDirectory)/output/$(sdk)/$(configuration)' 
+    artifactName: 'drop' 
+    publishLocation: 'Container'
