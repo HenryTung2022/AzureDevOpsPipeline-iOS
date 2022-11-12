@@ -52,7 +52,7 @@ steps:
   inputs:
       serverEndpoint: 'App Center connection'
       appSlug: 'cscyhenry1-gmail.com/HelloChanel'
-      appFile: '''$(build.artifactStagingDirectory)/output/$(sdk)/$(configuration)'''
+      appFile: '$(build.artifactstagingdirectory)/**/*.ipa'
       releaseNotesOption: 'file'
       releaseNotesFile: 'CHANGELOG'
       destinationType: 'groups'
