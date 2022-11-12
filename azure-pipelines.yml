@@ -56,4 +56,4 @@ steps:
       releaseNotesOption: 'file'
       releaseNotesFile: 'CHANGELOG'
       destinationType: 'groups'
-      destinationStoreId: 'Tester'
+      destinationStoreId: 'd5b96773-e18c-43b7-8385-0e3bb805f0d8'
