@@ -56,4 +56,4 @@ steps:
       releaseNotesOption: 'file'
       releaseNotesFile: 'CHANGELOG'
       destinationType: 'groups'
-      destinationStoreId: 'd5b96773-e18c-43b7-8385-0e3bb805f0d8'
+      distributionGroupId: 'd5b96773-e18c-43b7-8385-0e3bb805f0d8'
