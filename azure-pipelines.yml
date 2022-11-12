@@ -10,6 +10,17 @@ pool:
   vmImage: 'macos-latest'
 
 steps:
+- task: InstallAppleCertificate@2
+  inputs:
+   certSecureFile: '$(p12FileName)'
+   certPwd: '$(p12Password)'
+   keychain: 'temp'
+   deleteCert: true  
+- task: InstallAppleProvisioningProfile@1
+  inputs:
+   provisioningProfileLocation: 'secureFiles'
+   provProfileSecureFile: '$(provisioningProfile)'
+   removeProfile: true
 - task: Xcode@5
   inputs:
     actions: 'build'
@@ -18,6 +29,11 @@ steps:
     configuration: 'Release'
     xcWorkspacePath: '**/*.xcodeproj/project.xcworkspace'
     xcodeVersion: 'default' # Options: 8, 9, 10, 11, 12, default, specifyPath
+    packageApp: true
+    signingOption: 'manual'
+    signingIdentity: '$(APPLE_CERTIFICATE_SIGNING_IDENTITY)'
+    provisioningProfileUuid: '$(APPLE_PROV_PROFILE_UUID)'
+    
 - task: CopyFiles@2
   inputs:
     contents: '**/*.ipa'
