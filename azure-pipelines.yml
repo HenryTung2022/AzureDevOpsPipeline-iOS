@@ -66,3 +66,4 @@ steps:
     appType: 'iOS'
     shouldSkipWaitingForProcessing: true
     shouldSkipSubmission: true
+    appSpecificId: '6444382653'
