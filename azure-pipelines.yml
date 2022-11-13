@@ -64,3 +64,5 @@ steps:
     releaseTrack: 'TestFlight'
     appIdentifier: 'comhenrytungtestapp10testapp'
     appType: 'iOS'
+    shouldSkipWaitingForProcessing: true
+    shouldSkipSubmission: true
