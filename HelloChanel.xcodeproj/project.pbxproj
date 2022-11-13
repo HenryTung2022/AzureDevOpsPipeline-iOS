@@ -7,9 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		215450D92920E03E00697FE6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 215450D82920E03E00697FE6 /* Assets.xcassets */; };
 		21AE1A07291F30B1000C7032 /* HelloChanelApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21AE1A06291F30B1000C7032 /* HelloChanelApp.swift */; };
 		21AE1A09291F30B1000C7032 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21AE1A08291F30B1000C7032 /* ContentView.swift */; };
+		21AE1A0B291F30B2000C7032 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 21AE1A0A291F30B2000C7032 /* Assets.xcassets */; };
 		21AE1A0E291F30B2000C7032 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 21AE1A0D291F30B2000C7032 /* Preview Assets.xcassets */; };
 		21AE1A18291F30B3000C7032 /* HelloChanelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21AE1A17291F30B3000C7032 /* HelloChanelTests.swift */; };
 		21AE1A22291F30B3000C7032 /* HelloChanelUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21AE1A21291F30B3000C7032 /* HelloChanelUITests.swift */; };
@@ -34,11 +34,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		215450D82920E03E00697FE6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = ../../../Downloads/AppIcons/Assets.xcassets; sourceTree = "<group>"; };
-		215450DA2920E07D00697FE6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		21AE1A03291F30B1000C7032 /* HelloChanel.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HelloChanel.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		21AE1A06291F30B1000C7032 /* HelloChanelApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelloChanelApp.swift; sourceTree = "<group>"; };
 		21AE1A08291F30B1000C7032 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		21AE1A0A291F30B2000C7032 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		21AE1A0D291F30B2000C7032 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		21AE1A13291F30B3000C7032 /* HelloChanelTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HelloChanelTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		21AE1A17291F30B3000C7032 /* HelloChanelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelloChanelTests.swift; sourceTree = "<group>"; };
@@ -95,10 +94,9 @@
 		21AE1A05291F30B1000C7032 /* HelloChanel */ = {
 			isa = PBXGroup;
 			children = (
-				215450DA2920E07D00697FE6 /* Info.plist */,
 				21AE1A06291F30B1000C7032 /* HelloChanelApp.swift */,
 				21AE1A08291F30B1000C7032 /* ContentView.swift */,
-				215450D82920E03E00697FE6 /* Assets.xcassets */,
+				21AE1A0A291F30B2000C7032 /* Assets.xcassets */,
 				21AE1A0C291F30B2000C7032 /* Preview Content */,
 			);
 			path = HelloChanel;
@@ -234,7 +232,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				21AE1A0E291F30B2000C7032 /* Preview Assets.xcassets in Resources */,
-				215450D92920E03E00697FE6 /* Assets.xcassets in Resources */,
+				21AE1A0B291F30B2000C7032 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -416,7 +414,7 @@
 		21AE1A28291F30B3000C7032 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon-2";
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -425,7 +423,6 @@
 				DEVELOPMENT_TEAM = 4CA3582K94;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = HelloChanel/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -448,7 +445,7 @@
 		21AE1A29291F30B3000C7032 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon-2";
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -457,7 +454,6 @@
 				DEVELOPMENT_TEAM = 4CA3582K94;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = HelloChanel/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
