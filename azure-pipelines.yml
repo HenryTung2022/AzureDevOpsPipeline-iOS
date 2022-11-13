@@ -22,7 +22,7 @@ steps:
 - task: InstallAppleProvisioningProfile@1
   inputs:
    provisioningProfileLocation: 'secureFiles'
-   provProfileSecureFile: '$(provisioningProfile)'
+   provProfileSecureFile: '$(appstoreProvisioningProfile)'
    removeProfile: true
 - task: Xcode@5
   inputs:
