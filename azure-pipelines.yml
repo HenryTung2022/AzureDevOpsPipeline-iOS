@@ -63,8 +63,9 @@ steps:
     serviceEndpoint: 'first app store connection'
     releaseTrack: 'TestFlight'
     appIdentifier: 'comhenrytungtestapp10testapp'
-    ipaPath: '$(build.artifactstagingdirectory)/**/*.ipa'
     appType: 'iOS'
+    ipaPath: '$(build.artifactstagingdirectory)/**/*.ipa'
     shouldSkipWaitingForProcessing: true
     shouldSkipSubmission: true
     appSpecificId: '6444382653'
+    teamId: '4CA3582K94'
