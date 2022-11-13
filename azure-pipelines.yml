@@ -19,11 +19,20 @@ steps:
    certPwd: '$(p12Password)'
    keychain: 'temp'
    deleteCert: true  
+
 - task: InstallAppleProvisioningProfile@1
+  condition: eq(variables['Build.SourceBranch'], 'refs/heads/main')
   inputs:
    provisioningProfileLocation: 'secureFiles'
    provProfileSecureFile: '$(appstoreProvisioningProfile)'
    removeProfile: true
+- task: InstallAppleProvisioningProfile@1
+  condition: ne(variables['Build.SourceBranch'], 'refs/heads/main')
+  inputs:
+   provisioningProfileLocation: 'secureFiles'
+   provProfileSecureFile: '$(provisioningProfile)'
+   removeProfile: true
+
 - task: Xcode@5
   inputs:
     actions: 'build'
@@ -42,13 +51,19 @@ steps:
     contents: '**/*.ipa'
     targetFolder: '$(build.artifactStagingDirectory)'
     overWrite: true
-- task: PublishBuildArtifacts@1
-  inputs:
-    pathtoPublish: '$(build.artifactStagingDirectory)/output/$(sdk)/$(configuration)' 
-    artifactName: 'drop' 
-    publishLocation: 'Container'
 
+- task: AppCenterDistribute@3
+  condition: ne(variables['Build.SourceBranch'], 'refs/heads/main')
+  inputs:
+      serverEndpoint: 'App Center connection'
+      appSlug: 'cscyhenry1-gmail.com/HelloChanel'
+      appFile: '$(build.artifactstagingdirectory)/**/*.ipa'
+      releaseNotesOption: 'file'
+      releaseNotesFile: 'CHANGELOG'
+      destinationType: 'groups'
+      distributionGroupId: 'd5b96773-e18c-43b7-8385-0e3bb805f0d8'
 - task: AppStoreRelease@1
+  condition: eq(variables['Build.SourceBranch'], 'refs/heads/main')
   inputs:
     serviceEndpoint: 'first app store connection'
     releaseTrack: 'TestFlight'
