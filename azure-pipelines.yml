@@ -22,7 +22,7 @@ steps:
 - task: InstallAppleProvisioningProfile@1
   inputs:
    provisioningProfileLocation: 'secureFiles'
-   provProfileSecureFile: '$(provisioningProfile)'
+   provProfileSecureFile: '$(appstoreProvisioningProfile)'
    removeProfile: true
 - task: Xcode@5
   inputs:
@@ -47,16 +47,6 @@ steps:
     pathtoPublish: '$(build.artifactStagingDirectory)/output/$(sdk)/$(configuration)' 
     artifactName: 'drop' 
     publishLocation: 'Container'
-    
-- task: AppCenterDistribute@3
-  inputs:
-      serverEndpoint: 'App Center connection'
-      appSlug: 'cscyhenry1-gmail.com/HelloChanel'
-      appFile: '$(build.artifactstagingdirectory)/**/*.ipa'
-      releaseNotesOption: 'file'
-      releaseNotesFile: 'CHANGELOG'
-      destinationType: 'groups'
-      distributionGroupId: 'd5b96773-e18c-43b7-8385-0e3bb805f0d8'
 
 - task: AppStoreRelease@1
   inputs:
