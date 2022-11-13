@@ -57,3 +57,10 @@ steps:
       releaseNotesFile: 'CHANGELOG'
       destinationType: 'groups'
       distributionGroupId: 'd5b96773-e18c-43b7-8385-0e3bb805f0d8'
+
+- task: AppStoreRelease@1
+  inputs:
+    serviceEndpoint: 'first app store connection'
+    releaseTrack: 'TestFlight'
+    appIdentifier: 'comhenrytungtestapp10testapp'
+    appType: 'iOS'
