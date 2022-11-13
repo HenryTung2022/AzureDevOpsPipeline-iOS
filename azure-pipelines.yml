@@ -51,11 +51,6 @@ steps:
     contents: '**/*.ipa'
     targetFolder: '$(build.artifactStagingDirectory)'
     overWrite: true
-- task: PublishBuildArtifacts@1
-  inputs:
-    pathtoPublish: '$(build.artifactStagingDirectory)/output/$(sdk)/$(configuration)' 
-    artifactName: 'drop' 
-    publishLocation: 'Container'
 
 - task: AppCenterDistribute@3
   condition: ne(variables['Build.SourceBranch'], 'refs/heads/main')
