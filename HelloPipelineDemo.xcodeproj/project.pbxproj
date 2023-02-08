@@ -7,13 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		21AE1A07291F30B1000C7032 /* HelloChanelApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21AE1A06291F30B1000C7032 /* HelloChanelApp.swift */; };
+		21AE1A07291F30B1000C7032 /* HelloPipelineDemoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21AE1A06291F30B1000C7032 /* HelloPipelineDemoApp.swift */; };
 		21AE1A09291F30B1000C7032 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21AE1A08291F30B1000C7032 /* ContentView.swift */; };
 		21AE1A0B291F30B2000C7032 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 21AE1A0A291F30B2000C7032 /* Assets.xcassets */; };
 		21AE1A0E291F30B2000C7032 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 21AE1A0D291F30B2000C7032 /* Preview Assets.xcassets */; };
-		21AE1A18291F30B3000C7032 /* HelloChanelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21AE1A17291F30B3000C7032 /* HelloChanelTests.swift */; };
-		21AE1A22291F30B3000C7032 /* HelloChanelUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21AE1A21291F30B3000C7032 /* HelloChanelUITests.swift */; };
-		21AE1A24291F30B3000C7032 /* HelloChanelUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21AE1A23291F30B3000C7032 /* HelloChanelUITestsLaunchTests.swift */; };
+		21AE1A18291F30B3000C7032 /* HelloPipelineDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21AE1A17291F30B3000C7032 /* HelloPipelineDemoTests.swift */; };
+		21AE1A22291F30B3000C7032 /* HelloPipelineDemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21AE1A21291F30B3000C7032 /* HelloPipelineDemoUITests.swift */; };
+		21AE1A24291F30B3000C7032 /* HelloPipelineDemoUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21AE1A23291F30B3000C7032 /* HelloPipelineDemoUITestsLaunchTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,16 +34,16 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		21AE1A03291F30B1000C7032 /* HelloChanel.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HelloChanel.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		21AE1A06291F30B1000C7032 /* HelloChanelApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelloChanelApp.swift; sourceTree = "<group>"; };
+		21AE1A03291F30B1000C7032 /* HelloPipelineDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HelloPipelineDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		21AE1A06291F30B1000C7032 /* HelloPipelineDemoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelloPipelineDemoApp.swift; sourceTree = "<group>"; };
 		21AE1A08291F30B1000C7032 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		21AE1A0A291F30B2000C7032 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		21AE1A0D291F30B2000C7032 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		21AE1A13291F30B3000C7032 /* HelloChanelTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HelloChanelTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		21AE1A17291F30B3000C7032 /* HelloChanelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelloChanelTests.swift; sourceTree = "<group>"; };
-		21AE1A1D291F30B3000C7032 /* HelloChanelUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HelloChanelUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		21AE1A21291F30B3000C7032 /* HelloChanelUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelloChanelUITests.swift; sourceTree = "<group>"; };
-		21AE1A23291F30B3000C7032 /* HelloChanelUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelloChanelUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		21AE1A13291F30B3000C7032 /* HelloPipelineDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HelloPipelineDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		21AE1A17291F30B3000C7032 /* HelloPipelineDemoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelloPipelineDemoTests.swift; sourceTree = "<group>"; };
+		21AE1A1D291F30B3000C7032 /* HelloPipelineDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HelloPipelineDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		21AE1A21291F30B3000C7032 /* HelloPipelineDemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelloPipelineDemoUITests.swift; sourceTree = "<group>"; };
+		21AE1A23291F30B3000C7032 /* HelloPipelineDemoUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelloPipelineDemoUITestsLaunchTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,9 +74,9 @@
 		21AE19FA291F30B1000C7032 = {
 			isa = PBXGroup;
 			children = (
-				21AE1A05291F30B1000C7032 /* HelloChanel */,
-				21AE1A16291F30B3000C7032 /* HelloChanelTests */,
-				21AE1A20291F30B3000C7032 /* HelloChanelUITests */,
+				21AE1A05291F30B1000C7032 /* HelloPipelineDemo */,
+				21AE1A16291F30B3000C7032 /* HelloPipelineDemoTests */,
+				21AE1A20291F30B3000C7032 /* HelloPipelineDemoUITests */,
 				21AE1A04291F30B1000C7032 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -84,22 +84,22 @@
 		21AE1A04291F30B1000C7032 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				21AE1A03291F30B1000C7032 /* HelloChanel.app */,
-				21AE1A13291F30B3000C7032 /* HelloChanelTests.xctest */,
-				21AE1A1D291F30B3000C7032 /* HelloChanelUITests.xctest */,
+				21AE1A03291F30B1000C7032 /* HelloPipelineDemo.app */,
+				21AE1A13291F30B3000C7032 /* HelloPipelineDemoTests.xctest */,
+				21AE1A1D291F30B3000C7032 /* HelloPipelineDemoUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		21AE1A05291F30B1000C7032 /* HelloChanel */ = {
+		21AE1A05291F30B1000C7032 /* HelloPipelineDemo */ = {
 			isa = PBXGroup;
 			children = (
-				21AE1A06291F30B1000C7032 /* HelloChanelApp.swift */,
+				21AE1A06291F30B1000C7032 /* HelloPipelineDemoApp.swift */,
 				21AE1A08291F30B1000C7032 /* ContentView.swift */,
 				21AE1A0A291F30B2000C7032 /* Assets.xcassets */,
 				21AE1A0C291F30B2000C7032 /* Preview Content */,
 			);
-			path = HelloChanel;
+			path = HelloPipelineDemo;
 			sourceTree = "<group>";
 		};
 		21AE1A0C291F30B2000C7032 /* Preview Content */ = {
@@ -110,29 +110,29 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
-		21AE1A16291F30B3000C7032 /* HelloChanelTests */ = {
+		21AE1A16291F30B3000C7032 /* HelloPipelineDemoTests */ = {
 			isa = PBXGroup;
 			children = (
-				21AE1A17291F30B3000C7032 /* HelloChanelTests.swift */,
+				21AE1A17291F30B3000C7032 /* HelloPipelineDemoTests.swift */,
 			);
-			path = HelloChanelTests;
+			path = HelloPipelineDemoTests;
 			sourceTree = "<group>";
 		};
-		21AE1A20291F30B3000C7032 /* HelloChanelUITests */ = {
+		21AE1A20291F30B3000C7032 /* HelloPipelineDemoUITests */ = {
 			isa = PBXGroup;
 			children = (
-				21AE1A21291F30B3000C7032 /* HelloChanelUITests.swift */,
-				21AE1A23291F30B3000C7032 /* HelloChanelUITestsLaunchTests.swift */,
+				21AE1A21291F30B3000C7032 /* HelloPipelineDemoUITests.swift */,
+				21AE1A23291F30B3000C7032 /* HelloPipelineDemoUITestsLaunchTests.swift */,
 			);
-			path = HelloChanelUITests;
+			path = HelloPipelineDemoUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		21AE1A02291F30B1000C7032 /* HelloChanel */ = {
+		21AE1A02291F30B1000C7032 /* HelloPipelineDemo */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 21AE1A27291F30B3000C7032 /* Build configuration list for PBXNativeTarget "HelloChanel" */;
+			buildConfigurationList = 21AE1A27291F30B3000C7032 /* Build configuration list for PBXNativeTarget "HelloPipelineDemo" */;
 			buildPhases = (
 				21AE19FF291F30B1000C7032 /* Sources */,
 				21AE1A00291F30B1000C7032 /* Frameworks */,
@@ -142,14 +142,14 @@
 			);
 			dependencies = (
 			);
-			name = HelloChanel;
+			name = HelloPipelineDemo;
 			productName = HelloChanel;
-			productReference = 21AE1A03291F30B1000C7032 /* HelloChanel.app */;
+			productReference = 21AE1A03291F30B1000C7032 /* HelloPipelineDemo.app */;
 			productType = "com.apple.product-type.application";
 		};
-		21AE1A12291F30B3000C7032 /* HelloChanelTests */ = {
+		21AE1A12291F30B3000C7032 /* HelloPipelineDemoTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 21AE1A2A291F30B3000C7032 /* Build configuration list for PBXNativeTarget "HelloChanelTests" */;
+			buildConfigurationList = 21AE1A2A291F30B3000C7032 /* Build configuration list for PBXNativeTarget "HelloPipelineDemoTests" */;
 			buildPhases = (
 				21AE1A0F291F30B3000C7032 /* Sources */,
 				21AE1A10291F30B3000C7032 /* Frameworks */,
@@ -160,14 +160,14 @@
 			dependencies = (
 				21AE1A15291F30B3000C7032 /* PBXTargetDependency */,
 			);
-			name = HelloChanelTests;
+			name = HelloPipelineDemoTests;
 			productName = HelloChanelTests;
-			productReference = 21AE1A13291F30B3000C7032 /* HelloChanelTests.xctest */;
+			productReference = 21AE1A13291F30B3000C7032 /* HelloPipelineDemoTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		21AE1A1C291F30B3000C7032 /* HelloChanelUITests */ = {
+		21AE1A1C291F30B3000C7032 /* HelloPipelineDemoUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 21AE1A2D291F30B3000C7032 /* Build configuration list for PBXNativeTarget "HelloChanelUITests" */;
+			buildConfigurationList = 21AE1A2D291F30B3000C7032 /* Build configuration list for PBXNativeTarget "HelloPipelineDemoUITests" */;
 			buildPhases = (
 				21AE1A19291F30B3000C7032 /* Sources */,
 				21AE1A1A291F30B3000C7032 /* Frameworks */,
@@ -178,9 +178,9 @@
 			dependencies = (
 				21AE1A1F291F30B3000C7032 /* PBXTargetDependency */,
 			);
-			name = HelloChanelUITests;
+			name = HelloPipelineDemoUITests;
 			productName = HelloChanelUITests;
-			productReference = 21AE1A1D291F30B3000C7032 /* HelloChanelUITests.xctest */;
+			productReference = 21AE1A1D291F30B3000C7032 /* HelloPipelineDemoUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -206,7 +206,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 21AE19FE291F30B1000C7032 /* Build configuration list for PBXProject "HelloChanel" */;
+			buildConfigurationList = 21AE19FE291F30B1000C7032 /* Build configuration list for PBXProject "HelloPipelineDemo" */;
 			compatibilityVersion = "Xcode 13.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -219,9 +219,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				21AE1A02291F30B1000C7032 /* HelloChanel */,
-				21AE1A12291F30B3000C7032 /* HelloChanelTests */,
-				21AE1A1C291F30B3000C7032 /* HelloChanelUITests */,
+				21AE1A02291F30B1000C7032 /* HelloPipelineDemo */,
+				21AE1A12291F30B3000C7032 /* HelloPipelineDemoTests */,
+				21AE1A1C291F30B3000C7032 /* HelloPipelineDemoUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -258,7 +258,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				21AE1A09291F30B1000C7032 /* ContentView.swift in Sources */,
-				21AE1A07291F30B1000C7032 /* HelloChanelApp.swift in Sources */,
+				21AE1A07291F30B1000C7032 /* HelloPipelineDemoApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -266,7 +266,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				21AE1A18291F30B3000C7032 /* HelloChanelTests.swift in Sources */,
+				21AE1A18291F30B3000C7032 /* HelloPipelineDemoTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -274,8 +274,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				21AE1A24291F30B3000C7032 /* HelloChanelUITestsLaunchTests.swift in Sources */,
-				21AE1A22291F30B3000C7032 /* HelloChanelUITests.swift in Sources */,
+				21AE1A24291F30B3000C7032 /* HelloPipelineDemoUITestsLaunchTests.swift in Sources */,
+				21AE1A22291F30B3000C7032 /* HelloPipelineDemoUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -284,12 +284,12 @@
 /* Begin PBXTargetDependency section */
 		21AE1A15291F30B3000C7032 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 21AE1A02291F30B1000C7032 /* HelloChanel */;
+			target = 21AE1A02291F30B1000C7032 /* HelloPipelineDemo */;
 			targetProxy = 21AE1A14291F30B3000C7032 /* PBXContainerItemProxy */;
 		};
 		21AE1A1F291F30B3000C7032 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 21AE1A02291F30B1000C7032 /* HelloChanel */;
+			target = 21AE1A02291F30B1000C7032 /* HelloPipelineDemo */;
 			targetProxy = 21AE1A1E291F30B3000C7032 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -435,7 +435,7 @@
 				);
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = comhenrytungtestapp10testapp;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = HelloPipelineDemo;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 1;
@@ -466,7 +466,7 @@
 				);
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = comhenrytungtestapp10testapp;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = HelloPipelineDemo;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 1;
@@ -488,7 +488,7 @@
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HelloChanel.app/HelloChanel";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HelloPipelineDemo.app/HelloPipelineDemo";
 			};
 			name = Debug;
 		};
@@ -507,7 +507,7 @@
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HelloChanel.app/HelloChanel";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HelloPipelineDemo.app/HelloPipelineDemo";
 			};
 			name = Release;
 		};
@@ -548,7 +548,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		21AE19FE291F30B1000C7032 /* Build configuration list for PBXProject "HelloChanel" */ = {
+		21AE19FE291F30B1000C7032 /* Build configuration list for PBXProject "HelloPipelineDemo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				21AE1A25291F30B3000C7032 /* Debug */,
@@ -557,7 +557,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		21AE1A27291F30B3000C7032 /* Build configuration list for PBXNativeTarget "HelloChanel" */ = {
+		21AE1A27291F30B3000C7032 /* Build configuration list for PBXNativeTarget "HelloPipelineDemo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				21AE1A28291F30B3000C7032 /* Debug */,
@@ -566,7 +566,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		21AE1A2A291F30B3000C7032 /* Build configuration list for PBXNativeTarget "HelloChanelTests" */ = {
+		21AE1A2A291F30B3000C7032 /* Build configuration list for PBXNativeTarget "HelloPipelineDemoTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				21AE1A2B291F30B3000C7032 /* Debug */,
@@ -575,7 +575,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		21AE1A2D291F30B3000C7032 /* Build configuration list for PBXNativeTarget "HelloChanelUITests" */ = {
+		21AE1A2D291F30B3000C7032 /* Build configuration list for PBXNativeTarget "HelloPipelineDemoUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				21AE1A2E291F30B3000C7032 /* Debug */,

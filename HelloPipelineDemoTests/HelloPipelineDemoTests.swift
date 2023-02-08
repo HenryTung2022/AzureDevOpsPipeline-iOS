@@ -6,9 +6,9 @@
 //
 
 import XCTest
-@testable import HelloChanel
+@testable import HelloPipelineDemo
 
-class HelloChanelTests: XCTestCase {
+class HelloPipelineDemoTests: XCTestCase {
 
     override func setUpWithError() throws {
         // Put setup code here. This method is called before the invocation of each test method in the class.

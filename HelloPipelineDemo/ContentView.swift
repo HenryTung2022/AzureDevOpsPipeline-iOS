@@ -10,7 +10,7 @@ import SwiftUI
 struct ContentView: View {
     var body: some View {
         VStack {
-            Text("CHANEL")
+            Text("Quote")
                 .font(.largeTitle)
                 .bold()
             Text("Simplicity is the keynote of all true elegance.")
